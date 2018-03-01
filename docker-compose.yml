@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+  pycast:
+    container_name: picast
+    build:
+      context: .
+    ports:
+      - "3000:3000"
